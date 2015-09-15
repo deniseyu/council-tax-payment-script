@@ -27,8 +27,9 @@ Ruby, Bundler, Selenium webdriver, Chrome or Firefox
 git clone git@github.com:deniseyu/council-tax-payment-script.git
 cd council-tax-payment-script
 bundle install
-rspec
 ```
+
+Uncomment line 43 of spec/tax_spec.rb, then run `rspec`.
 
 #### Using Firefox
 

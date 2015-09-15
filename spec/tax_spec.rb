@@ -39,8 +39,6 @@ feature 'Paying my council tax from command line' do
 
     click_to_next_page
 
-    expect(page).to have_content 'Do not refresh the page while your payment is being processed'
-
     # THIS ACTUALLY SENDS CREDIT CARD PAYMENT
     # find('#action_process').click
   end
